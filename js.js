@@ -22,7 +22,7 @@ if (userNum === null || userDegree === null) {
     const num = +userNum;
     const degreeNum = +userDegree;
 
-    if (!Number.isInteger(degreeNum) || !Number.isInteger(num)) {
+    if (!Number.isInteger(degreeNum)) {
         alert('Некоректне введення. Будь ласка, введіть числові значення і цілу ступінь.');
     } else {
         const result = pow(num, degreeNum);
