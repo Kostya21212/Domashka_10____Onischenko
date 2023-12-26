@@ -11,8 +11,8 @@ function pow(num, degree) {
     return num * pow(num, degree - 1);
 }
 
-let userNum = prompt('Введіть число');
-let userDegree = prompt('Введіть ступінь');
+const userNum = prompt('Введіть число');
+const userDegree = prompt('Введіть ступінь');
 
 if (userNum === null || userDegree === null) {
     alert('Goodbye!');
@@ -29,5 +29,3 @@ if (userNum === null || userDegree === null) {
         alert(`${num} в ступені ${degreeNum} = ${result}`);
     }
 }
-
-
